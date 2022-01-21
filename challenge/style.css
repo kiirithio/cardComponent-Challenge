@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(5, 12, 27);
+}
+* {
+    box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
+  padding: 5%;
+
+}
+
+.item-left{
+    background-color: rgb(28, 25, 56);
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.item-right{
+    width: 50%;
+    float: left;
+}
+
+img{
+    height: 300px;
+    width: 630px;
+    filter: sepia(50%) hue-rotate(190deg) saturate(500%);
+}
+
+.item-left-one{
+    color: white;
+    font-size: 250%;
+    padding: 3%;
+}
+.insights{
+    color: rgb(161, 92, 198);
+}
+
+.item-left-two{
+    color: rgb(130, 128, 150);
+    font-size: 100%;
+    padding: 3%;
+}
+
+.item-left-three{
+    color: white;
+    
+    padding: 1%;
+    display: inline;
+    list-style: none;
+   
+}
+
+.item-left-three-a li{
+    display: inline;
+    font-size: 150%;
+    font-weight: bolder;
+    padding-right: 4%;
+    
+}
+
+.item-left-three-b li{
+    display: inline;
+    font-size: small;
+    color: rgb(130, 128, 150);
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+
+
+
